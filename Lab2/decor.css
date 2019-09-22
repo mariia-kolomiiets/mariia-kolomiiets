@@ -1,0 +1,407 @@
+*{padding: 0;
+margin: 0}
+
+.house__roof{
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 100px solid #404652;
+    position: relative;
+    left: 100px;}
+.roof__hole{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: #f6fad2;
+    border-radius: 30px;
+    right: 25px;
+    top: 30px;}
+.roof__hour{
+    width: 1px;
+    height: 30px;
+    transform: rotate(200deg);
+    left: 50%;
+    position: relative;
+    border: 2px solid #404652;
+}
+.roof__minute{
+    width: 1px;
+    height: 50px;
+    bottom: 35%;
+    left: 75%;
+    transform: rotate(120deg);
+    position: relative;
+    border: 2px solid #404652;
+}
+
+.first_house{
+    position: relative;
+    left: 150px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;}
+
+.first_house .house__wall{position: relative; }
+/* Первый этаж, оба окна */
+.first_house .window{
+    width: 50px;
+    height: 300px;
+    border: 1px solid black;
+    top: 40px;}
+
+
+/* Первый этаж, левое окно */
+.first_house .window_left__frame_hor0{
+    width: 2px;
+    height: 50px;
+    left: 24px;
+    top: 20px;
+    transform: rotate(90deg);
+    position: relative;}
+.first_house .window_left__frame_hor1{
+    width: 2px;
+    height: 50px;
+    left: 24px;
+    transform: rotate(90deg);
+    top: 80px;
+    position: relative;}
+.first_house .window_left__frame_hor2{
+    width: 2px;
+    height: 50px;
+    left: 24px;
+    top: 130px;
+    transform: rotate(90deg);
+    position: relative;}
+.first_house .window_left__frame_ver{
+    width: 2px;
+    height: 100%;
+    left: 50%;
+    bottom: 150px;
+    position: relative;
+    background: black;}
+
+/* Первый этаж, правое окно */
+.first_house .window_right__frame_hor0{
+    width: 2px;
+    height: 50px;
+    left: 24px;
+    top: 20px;
+    transform: rotate(90deg);
+    position: relative;}
+.first_house .window_right__frame_hor1{
+    width: 2px;
+    height: 50px;
+    left: 24px;
+    transform: rotate(90deg);
+    top: 80px;
+    position: relative;}
+.first_house .window_right__frame_hor2{
+    width: 2px;
+    height: 50px;
+    left: 24px;
+    top: 130px;
+    transform: rotate(90deg);
+    position: relative;}
+.first_house .window_right__frame_ver{
+    width: 2px;
+    height: 100%;
+    left: 25px;
+    bottom: 150px;
+    position: relative;}
+
+.first_house .wall__window_right{
+    background: #e6d450;
+    position: relative;
+    float: right;
+    right: 30px;}
+.first_house .wall__window_left{
+    background: #89cbcc;
+    position: relative;
+    float: left;
+    left: 30px;}
+
+    /* Центральное окно */
+.first_house .wall__window_center{
+    background: #8f273b;
+    left: 125px;
+    border-radius: 10px;
+    position: relative;
+}
+.first_house .window_center_gap{
+    position: relative;
+    width: 2px;
+    height: 93%;
+    left: 25px;
+    border: none;
+    background: black;
+    bottom: 270px;}
+.first_house .window_center_glass{
+    position: relative;
+    width: 90%;
+    height: 280px;
+    background: #f7f0e9;
+    top: 10px;
+    left: 2px;
+    border: 1px solid black;
+    border-radius: 20px; }
+
+
+/* Второй этаж - АБСОЛЮТНОЕ расположение  */
+
+/* Второй домик */
+.second_house{position: absolute;
+top: 500px;
+height: 400px;
+width: 300px;
+border: 1px solid #404652;
+left: 150px;
+background: linear-gradient(45deg, #b9e0eb, #805d91);
+border-width: 10px 1px 1px 1px;}
+
+.second_house .house__wall, {position: absolute; }
+
+/* Второй этаж, оба окна */
+.second_house .window{
+    width: 50px;
+    height: 150px;
+    border: 1px solid black;
+    position: absolute;
+    top: 10%;}
+.second_house .window_left__frame_ver, .window_left__frame_hor0, .window_left__frame_hor1, .window_left__frame_hor2, .window_right__frame_ver, .window_right__frame_hor0, .window_right__frame_hor1, .window_right__frame_hor2{
+    border: none;
+    background-color: black;
+    position:absolute;}
+/* Второй этаж, левые окна */
+.second_house .window_left__frame_hor0{
+    width: 2px;
+    height: 50px;
+    left: 24px;
+    top: 20px;
+    transform: rotate(90deg);}
+.second_house .window_left__frame_hor1{
+    width: 2px;
+    height: 50px;
+    left: 24px;
+    transform: rotate(90deg);
+    top: 80px;}
+.second_house .window_left__frame_hor2{
+    width: 2px;
+    height: 50px;
+    left: 24px;
+    top: 130px;
+    transform: rotate(90deg);}
+.second_house .window_left__frame_ver{
+    width: 2px;
+    height: 100%;
+    left: 25px;}
+
+/* Второй этаж, правые окна */
+.second_house .window_right__frame_hor0{
+    width: 2px;
+    height: 50px;
+    left: 24px;
+    top: 20px;
+    transform: rotate(90deg);}
+
+.second_house .window_right__frame_hor1{
+    width: 2px;
+    height: 50px;
+    left: 24px;
+    transform: rotate(90deg);
+    top: 80px;}
+.second_house .window_right__frame_hor2{
+    width: 2px;
+    height: 50px;
+    left: 24px;
+    top: 130px;
+    transform: rotate(90deg);
+    position: absolute;}
+.second_house .window_right__frame_ver{
+    width: 2px;
+    height: 100%;
+    left: 25px;}
+/* Модификация нижних оконо */
+.second_house .wall__window_right{
+    background: #f23a68;
+    float: right;
+    right: 40px;
+}
+.second_house .wall__window_left{
+    background: #d471e3;
+    left: 40px;}
+#window_under_left{
+    top: 220px;
+    background: #fa8464;
+}
+#window_under_right{
+        top: 220px;
+        background: #c9c7c9;
+}
+/* Балконы второго этажа */
+.second_house .balcony{
+    position: absolute;
+    border-style: solid;
+    border-color: #382616;
+    border-top: 60px solid #99654b;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	height: 0;
+	width: 60px;
+    top: 135px;
+}
+.second_house .wall__balcony_left{
+    right: 185px;
+}
+.second_house .wall__balcony_right{
+    right: 15px;
+}
+#balcony_under_right{
+    top: 310px;
+}
+#balcony_under_left{
+    top: 310px;
+}
+.balcony_inner_decor
+{   position: absolute;
+    border-top: 60px solid #1f170f;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	width: 30px;
+    bottom: 0px;
+    left: -5px;}
+
+
+
+
+/* Третий этаж статик */
+
+.thirds_house{
+    position: static;
+    background: linear-gradient(to top right, #f5d0df, #d97dfa);
+    height: 400px;
+    width: 300px;
+    margin: 400px 0px 0px 150px;
+    border: solid #404652;
+    border-width: 20px 1px 15px 1px;}
+
+.thirds_house .house__wall{position: relative; }
+
+.thirds_house .window{
+    width: 180px;
+    height: 350px;
+    border: 1px solid black;
+    position: static;
+    margin-left: 20%;
+    margin-top: 5%}
+
+    /* Центральное окно */
+.thirds_house .wall__window_center{
+    background: #adb8cc;
+    border-radius: 10px;
+}
+.thirds_house .window_center_gap{
+    position: static;
+    width: 2px;
+    height: 100%;
+    border: none;
+    background: black;
+    margin-left: 50%}
+.thirds_house .window_center_glass{
+    position: static;
+    width: 85%;
+    height: 90%;
+    background: #f7f0e9;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-top: 5%}
+.thirds_house .window_center__frame_hor0
+    {width: 10px;
+    height: 170px;
+    margin-top: -230%;
+    margin-left: 47%;
+    transform: rotate(90deg);
+    position: static;
+    background: #806046;
+    border: 2px solid black;}
+.thirds_house .window_center__frame_hor1
+    {width: 9px;
+    height: 170px;
+    margin-top: -45%;
+    margin-left: 47%;
+    transform: rotate(90deg);
+    position: static;
+    background: #5e432c;
+    border: 2px solid black;}
+.thirds_house .window_center__frame_hor2
+    {width: 8px;
+    height: 170px;
+    margin-left: 47%;
+    margin-top: -40%;
+    transform: rotate(90deg);
+    position: static;
+    background: #3b2716;
+    border: 1px solid black;}
+
+
+
+
+
+/* Лифт фиксед */
+
+.elevator{
+    position: fixed;
+    background: linear-gradient(to top right, #a0e8b3, #e1f55f);
+    height: 250px;
+    width: 150px;
+    border-radius: 30px;
+    bottom: 0%;
+    border: 1px solid;
+}
+
+    /* Крыша лифта */
+.elevator__roof{
+    position: fixed;}
+
+.elevator .elevator__window{
+    position: fixed;
+    background: linear-gradient(to top right, #b6ded9, #d9ddde);
+    height: 100px;
+    width: 130px;
+    bottom: 15%;
+    left: 10px;
+    border: 2px solid;}
+
+.elevator .elevator__human{
+    position: fixed;
+        left: 30px;
+}
+.elevator .elevator__human_body
+    {width: 40px;
+    height: 60px;
+    background: #cc1222;
+    border-radius: 10px;}
+.elevator .elevator__human_head
+    {width: 40px;
+	height: 40px;
+	background:#fabfa7;
+	border-radius: 40px;}
+.elevator .elevator__window_gap{
+    position: fixed;
+    width: 2px;
+    height: 100%;
+    border: none;
+    background: black;
+    left: 80px;
+}
+.elevator__human_arm{
+    position: fixed;
+    width: 20px;
+    height: 59px;
+    background: #6e070f;
+    border-radius: 5px;
+    bottom: 15.3%;
+    left: 40px;
+}
