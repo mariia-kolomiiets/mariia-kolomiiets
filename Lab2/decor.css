@@ -370,7 +370,7 @@ border-width: 10px 1px 1px 1px;}
     background: linear-gradient(to top right, #b6ded9, #d9ddde);
     height: 100px;
     width: 130px;
-    bottom: 15%;
+    bottom: 110px;
     left: 10px;
     border: 2px solid;}
 
@@ -391,7 +391,7 @@ border-width: 10px 1px 1px 1px;}
 .elevator .elevator__window_gap{
     position: fixed;
     width: 2px;
-    height: 100%;
+    height: 300px;
     border: none;
     background: black;
     left: 80px;
@@ -399,9 +399,9 @@ border-width: 10px 1px 1px 1px;}
 .elevator__human_arm{
     position: fixed;
     width: 20px;
-    height: 59px;
+    height: 58px;
     background: #6e070f;
     border-radius: 5px;
-    bottom: 15.3%;
+    bottom: 112px;
     left: 40px;
 }
