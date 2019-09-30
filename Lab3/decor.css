@@ -1,0 +1,124 @@
+*{padding: 0;
+margin: 0}
+
+/* Весь домик */
+.house{
+display: flex;
+align-items: center;
+flex-direction: column;}
+
+.house__roof{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 280px;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 100px solid #404652;
+    left: 100px;}
+.star-upper {
+    margin-top: 5px;
+	width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 60px solid white;
+	position: absolute;
+}
+.star-upper:after {
+	width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-top: 60px solid white;
+	position: absolute;
+	content: "";
+	top: 20px;
+	left: -40px;
+}
+.congradulation{color: white;
+    margin-top: 85px;
+    font-size: 25px;
+    position: absolute;}
+.house__wall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 800px;
+    border: solid #404652;
+    background: linear-gradient(45deg, #b9e0eb, #805d91);
+    border-width: 10px 1px 1px 1px; }
+.windows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;}
+.window{
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    width: 100px;
+    height: 225px;
+    border: 10px solid black;
+    margin: 50px}
+
+.wall__window_left{
+    background: linear-gradient(45deg, #ffffff, #ffe76e);}
+.wall__window_left_middle{
+    background: linear-gradient(45deg, #ffffff, #ed749d);}
+.wall__window_right_middle{
+    background: linear-gradient(45deg, #ffffff, #91eb73);}
+.wall__window_right{
+    background: linear-gradient(45deg, #ffffff, #c573eb);
+}
+
+.window_frame_hor0{
+    align-self: flex-start;
+    background: black;
+    width: 3px;
+    height: 90px;
+    transform: rotate(90deg);}
+.window_frame_hor1{
+    align-self: center;
+    background: black;
+    width: 2px;
+    height: 90px;
+    transform: rotate(90deg);}
+.window_frame_hor2{
+    align-self: flex-end;
+    background: black;
+    width: 3px;
+    height: 90px;
+    transform: rotate(90deg);}
+.window_frame_ver{
+    background: black;
+    width: 4px;
+    height: 100%;}
+.grafities{
+    display: flex;
+    position: relative;
+    margin-top: -30px;}
+.first_grafiti img {
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 120px;
+    }
+.second_grafiti img{
+    height: auto;
+    width: auto;
+    max-width: 250px;
+    max-height: 100px;
+    transform: rotate(20deg);}
+.third_grafiti img{
+    margin-top: -5px;
+    height: auto;
+    width: auto;
+    max-width: 225px;
+    max-height: 150px;}
+.fourth_grafiti img{
+    height: auto;
+    width: auto;
+    max-width: 180px;
+    max-height: 140px;
