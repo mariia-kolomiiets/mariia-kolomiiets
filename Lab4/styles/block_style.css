@@ -1,0 +1,41 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+.squares{height:100vh; display: flex; justify-content: center; align-items: center;}
+.square{width: 10em;
+   height: 10em;}
+.first_square{background: #f7b91b}
+.second_square{background: #f27611}
+.third_square{background: #ed2a0c}
+
+@media screen and (max-width: 480px) {
+    .squares{display: flex; flex-direction: column;}
+    .square:hover {width: 5em;
+       height: 5em;background: #000000}
+    .square{margin: 10px}
+    .first_square{background: #58ddf5}
+    .second_square{background: #0ca0f5}
+    .third_square{background: #06439e}}
+@media screen and (max-width: 760px) and (min-width: 480px){
+    .squares{display: flex; flex-direction: column; align-items: center;}
+    .square:hover {background: #787575;}
+    .square{margin: 30px}
+    .first_square{background: #f1fa43}
+    .second_square{background: #c6f030}
+    .third_square{background: #4ef538}}
+@media screen and (max-width: 760px) and (min-width: 480px) and (orientation: landscape){
+    .squares{display: flex; flex-direction: row;}
+    .square:hover {background: #787575;}
+    .square{margin: 30px}
+    .first_square{background: #d47bac}
+    .second_square{background: #f55d76}
+    .third_square{background: #9c3234}}
+@media screen and (max-width: 960px) and (min-width: 760px)  {
+    .square:hover {background: #e0dada;}
+    .square{margin: 50px}
+    .first_square{background: #f584cc}
+    .second_square{background: #d61ceb}
+    .third_square{background: #880acc}}
+
+@media (orientation: landscape) and (min-width: 1000px){.square{margin: 50px;background: linear-gradient(to top, #dea302 20%, #E4E4D8 50%, #A19887 80%); align-self: center;}}
