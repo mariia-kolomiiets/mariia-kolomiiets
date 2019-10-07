@@ -28,4 +28,4 @@
     .second_square{background: #d61ceb}
     .third_square{background: #880acc}}
 
-@media (orientation: landscape) and (min-width: 1000px){.square{margin: 50px;background: linear-gradient(to top, #dea302 20%, #E4E4D8 50%, #A19887 80%); align-self: center;}}
+@media (orientation: landscape) and (min-width: 1000px){.square{margin: 50px; background: linear-gradient(to top, #dea302 20%, #E4E4D8 50%, #A19887 80%); align-self: center;}}
