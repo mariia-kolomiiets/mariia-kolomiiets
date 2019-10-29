@@ -1,0 +1,7 @@
+@import "var";
+@media screen and (max-width: 625px) {
+    .team__items-block{display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1vw;}
+}
