@@ -1,0 +1,50 @@
+.wrapper{width: 100vw;
+	height: 100vh;
+	display: flex;}
+.form_second{	align-self: flex-end;
+margin-left: 100vw;
+margin-bottom: 0vh;}
+.triangle_first {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+	display: flex;
+	animation: 10s infinite linear;
+	animation-name: first-move;
+}
+.triangle_second {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid yellow;
+	animation: 10s infinite linear;
+	animation-name: second-move;
+}
+
+@keyframes first-move {
+	25%{transform: translate(25vw,25vh)rotate(45deg)}
+	30%{transform: translate(30vw,30vh)rotate(100deg)}
+	40%{transform: translate(40vw,40vh)rotate(180deg)}
+	50%{transform: translate(50vw,45vh)}
+	60%{transform: translate(50vw,45vh)}
+	55%{transform: translate(50vw,45vh)}
+	75%{transform: translate(75vw,75vh)rotate(90deg)}
+	100% {transform: translate(95vw,95vh)rotate(180deg)}
+}
+@keyframes second-move {
+	25%{transform: translate(-25vw,-25vh)rotate(45deg)}
+	30%{transform: translate(-30vw,-30vh)rotate(80deg)}
+	40%{transform: translate(-40vw,-40vh) rotate(140deg)}
+	50%{transform: translate(-50vw,-50vh) }
+	55%{transform: translate(-50vw,-50vh) }
+	60%{transform: translate(-50vw,-50vh)}
+	75%{transform: translate(-75vw,-75vh)rotate(45deg)}
+	100% {
+	 transform: translate(-95vw,-95vh) rotate(180deg);
+	  }
+}
