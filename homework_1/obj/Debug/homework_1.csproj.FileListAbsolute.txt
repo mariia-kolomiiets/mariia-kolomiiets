@@ -1,0 +1,6 @@
+D:\Study\Existek\Homeworks\home_1\homework_1\bin\Debug\homework_1.exe.config
+D:\Study\Existek\Homeworks\home_1\homework_1\bin\Debug\homework_1.exe
+D:\Study\Existek\Homeworks\home_1\homework_1\bin\Debug\homework_1.pdb
+D:\Study\Existek\Homeworks\home_1\homework_1\obj\Debug\homework_1.csprojAssemblyReference.cache
+D:\Study\Existek\Homeworks\home_1\homework_1\obj\Debug\homework_1.exe
+D:\Study\Existek\Homeworks\home_1\homework_1\obj\Debug\homework_1.pdb
