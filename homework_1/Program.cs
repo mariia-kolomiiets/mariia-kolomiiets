@@ -21,15 +21,10 @@ namespace homework_1
                 Console.Write("Operation: ");
                 oper = Console.ReadLine();
             }
-            //Console.Write("Operation: ");
-            //first_n = Console.ReadLine();
-            //second_n = Console.ReadLine();
             Console.Write("First number: ");
             while (!Double.TryParse(first_n = Console.ReadLine(), out first))
             {
                 Console.WriteLine("First number: ");
-                //first_n = Console.ReadLine();
-
             }
             Console.Write("Second number: ");
             while (!Double.TryParse(second_n = Console.ReadLine(), out second))
