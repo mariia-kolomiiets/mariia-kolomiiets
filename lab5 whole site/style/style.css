@@ -1,0 +1,553 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p{text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;}
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+    flex-direction: column;
+}
+body{display: flex;
+    flex-direction: column;
+
+}
+
+.arrow_galery{height: 7.5vh;
+    background-color: #d9dadb;
+    display: flex;
+justify-content: space-between;
+align-items: center;}
+.arrow {
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    height: 20px;
+    width: 20px;
+    transform: rotate(-45deg);
+    margin-right: 10px;
+    border-color: #88543a;
+}
+.prew.arrow{
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    height: 20px;
+    width: 20px;
+    transform: rotate(135deg);
+    margin-left: 10px;
+    border-color: #88543a;
+}
+header{
+    display: flex;
+    height: 11.8vh;
+}
+header a{
+align-self: center;
+color: #d7794a;
+font-family: "Myriad Pro";
+font-size: 1.3vw;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.03vw;
+margin-left: 3.28vw;
+text-decoration: none;}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/fone.png");
+    background-size: 100%;}
+
+.form{
+    display: flex;
+}
+
+.title_section{
+    display: flex;
+    flex-direction: column;
+    height: 88.1vh;
+    }
+.tool_banner{
+    display: flex;
+    flex-direction: column;
+    height: 76.3%;
+    background: 100% 50% no-repeat;
+    background-image: url("../img/banner.png");
+    background-size: 100%;
+}
+.title_section .tool_bar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3.3vw;
+    height: 7.5vh;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.unit_section :hover{background-color: rgb(0, 180, 240, 0.3);}
+.tool_bar .unit_section a{color: #e8e6e6;
+font-family: "Myriad Pro";
+font-size: 1.04vw;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.05vw;
+margin-left: 1vw;
+margin-right: 1vw;
+text-decoration: none;}
+
+.unit_section{margin-top: 2vh;
+margin-bottom: 2vh;}
+
+.title_section .welcome_section{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    height: 68.8%;
+    width: 100%;
+
+    /* padding-left: 3.3vw; */
+}
+.Category_selection{background: transparent;}
+.title_section .welcome_section .inner_content{
+    display: flex;
+    flex-direction: column;
+    width: 26.9vw;
+    margin-right: 7.4vw;}
+
+.inner_content h1{margin-left: auto;
+    margin-right: auto;
+    color: #fcf9f7;
+    font-family: Baskerville;
+    font-size: 3.75vw;
+    font-weight: 400;
+    text-transform: uppercase;}
+.inner_content h2{
+    margin-left: auto;
+    margin-right: auto;
+    color: #d7794a;
+    font-family: Athelas;
+    font-size: 2.5vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.06vw;}
+.team_title{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+
+.team_title h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #a95e39;
+    font-family: Athelas;
+    font-size: 3.1vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.9vw;
+}
+.team_title p{
+    color: #000000;
+    font-family: Helvetica;
+    font-size: 1.6vh;
+    font-weight: 400;
+    letter-spacing: 0.04vw;
+}
+
+.team_leaders{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8.9vw;
+    padding-right: 10.7vw;
+    padding-top: 14.7vh;
+    padding-bottom: 14.7vh;
+background: rgb(255,255,255,0.7);}
+.team_leaders .team_title{
+    width: 100%;
+    height: 39.45vh;
+
+}
+.team_leaders .team_title .team_description{width: 59.2vw;
+    color: #000000;
+    font-family: Helvetica;
+    font-size: 1.4vw;
+    font-weight: 400;
+}
+
+.team_leaders .team_images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 55.6vh;}
+.item__img img{
+    height: 55.6vh;
+    width: 23.3vw;}
+.team_leaders .team_names{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 6vh;
+    width: 100%;}
+.team_leaders .team_names .member_name{
+    height: 100%;
+    width: 23.3vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Helvetica;
+    font-size: 3vh;
+    font-weight: 400;
+}
+.member_name p{vertical-align: middle;}
+ .team_leaders .team_descriptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.78vh 0 0.78vh 0;}
+ .team_leaders .team_descriptions .member_desc{
+    height: 100%;
+    width: 23.3vw;
+}
+.member_desc p{
+    vertical-align: middle;
+    color: #000000;
+    font-family: Helvetica;
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 1.3vw;
+    letter-spacing: 0.03vw;}
+
+.advantages {
+    height: 17.7vh;
+    padding-left: 17.1vw;
+    padding-right: 16.5vw;
+    background-color: #052431;
+}
+/* .advantages .bar_information{} */
+.advantages .bar_info{
+    height: 100%;
+    width: 16.59vw;
+    background-color: #052431;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+.advantages .bar_info .title p{color: #995437;
+    font-family: Vani;
+    font-size: 4vw;
+    font-weight: 700;
+    letter-spacing: 0.07vw;}
+.advantages .bar_info .value p{
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 1.35vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05vw;
+}
+
+.advantages .counter_two{}
+.advantages .counter_three{}
+.advantages .counter_four{}
+
+.contact_us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 109vh;
+    height: 140.1vh;
+    width: 100%;
+    background-color: #052431;
+}
+.contact_us__canvas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 93.16vh;
+    width: 54.16vw;
+    background-color: #052431;
+    padding-top: 30vh;
+}
+.contact_us__canvas .title{color: #ffffff;
+    font-family: Athelas;
+    font-size: 3.4vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.06vw;}
+.contact_us__canvas .instruct{
+    width: 39.89vw;
+    color: #c0c0c0;
+    font-family: "Quattrocento Sans";
+    font-size: 1.45vw;
+    font-weight: 400;
+    letter-spacing: 0.02vw;
+    margin-bottom: 0;
+    margin-top: 6.9vh;
+}
+.contact_us__canvas .user_form{
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+.contact_us__canvas .user_form input{
+    background: transparent;
+    color: #8f8f8f;
+    font-family: "Quattrocento Sans";
+    font-size: 1.14vw;
+    font-weight: 400;
+    width: 25.9vw;
+    border: 0;
+    border-bottom: 0.1vw solid #bfbfbf;
+    padding-top: 6vh;
+
+}
+.contact_us__canvas .user_form select{
+    background: transparent;
+    color: #8f8f8f;
+    font-family: "Quattrocento Sans";
+    font-size: 1.14vw;
+    font-weight: 400;
+    width: 25.9vw;
+    border: none;
+    border-bottom: 0.1vw solid #bfbfbf;
+    outline: none;
+    padding-top: 6vh;
+}
+.contact_us__canvas .user_form textarea{
+    background: transparent;
+    color: #8f8f8f;
+    font-family: "Quattrocento Sans";
+    font-size: 1.14vw;
+    font-weight: 400;
+    width: 54vw;
+    border: none;
+    border-bottom: 0.1vw solid #bfbfbf;
+    padding-top: 6vh;
+
+}
+#email_input{width: 54vw;}
+.message_input{
+    height: 19.5vh;
+    }
+button{
+    align-self: flex-end;
+    border: 0.1vw solid #623621;
+    background-color: #89553b;
+    width: 12.5vw;
+    height: 7.1vh;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 1.25vw;
+    font-weight: 400;
+    letter-spacing: 0.03vw;
+    margin-top: 7.3vh;
+}
+
+.about_us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34.6vh;
+    margin-bottom: 30.5vh;
+}
+.about_us__canvas{
+    display: flex;
+    flex-direction: row;
+    height: 58.4vh;
+    width: 94.6vw;
+    background-color: grey;
+}
+.about_us__canvas .canvas_main{
+    height: 100%;
+    width: 47.1vw;
+    background-color: grey;
+}
+.about_us__canvas .canvas_us{
+    align-self: center;
+    margin-left: 1.6vw;
+    height: 51.1vh;
+    width: 43.75vw;
+    background-color: #f9f9fb;
+}
+.about_us__canvas .canvas_us .title{color: #000000;
+font-family: Athelas;
+font-size: 2.5vw;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.125vw;
+margin-top: 6.9vh;}
+.about_us__canvas .canvas_us .instruct{color: #3d3d3d;
+font-family: "Quattrocento Sans";
+font-size: 1vw;
+font-weight: 400;
+letter-spacing: 0.02vw;
+width: 28.85vw;
+margin: auto;
+margin-top: 4vh;}
+.about_us__canvas .canvas_us .about_us__images{
+display: flex;
+justify-content: space-around;
+}
+.about_us__canvas .canvas_us .about_us__images .about__img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.5vh;
+    border-radius: 10vw;}
+.about__img img{
+    max-width: 100%;
+    width: 7.2vw;
+    border-radius: 10vw;}
+.about_us__images .about__img .title{
+    color: #000000;
+    font-family: "Myriad Pro";
+    font-size: 1.25vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.06vw;
+    padding: 0.9vh 1vw;
+    margin-top: 0;
+border: 1px solid;}
+.line{width: 1px;
+    background-color: black;
+    height: 1.95vh;
+    margin-top: -4px;}
+.our_gallery {
+    height: 130.35vh;
+    background-color: black;
+}
+.our_gallery .gallery_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 58.8vh;
+    width: 100%;
+    background-color: white;
+}
+.our_gallery .gallery_text .title{
+    color: #a95e39;
+    font-family: Athelas;
+    font-size: 3.75vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.09vw;
+    margin-bottom: 4.49vh;
+    margin-top: 18.35vh;
+}
+.our_gallery .gallery_text .instruct{
+    color: #000000;
+    font-family: Quattrocento Sans;
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: 0.09vw;
+    margin-top: 4.49vh;
+    width: 78.5vw;
+}
+.our_gallery .galery_images{
+
+}
+.our_gallery .galery_images .galery__img{
+
+}
+.galery__img img{
+    max-width: 100%;
+    width: 20vw;
+    height: 64vh;
+}
+.our_gallery .bar_info{
+    height: 7.5vh;
+    width: 100%;
+    background-color: blue;
+}
+
+.top__footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 28.9vh;
+    width: 100%;
+    background-color: #052431;
+}
+.top__footer .foot_section{
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+    height: 70%;
+}
+.top__footer .foot_section .title{
+    color: #d2d3d7;
+    font-family: "Myriad Pro";
+    font-size: 1.25vw;
+    font-weight: 400;
+    letter-spacing: 0.03vw;
+}
+.top__footer .foot_section .instruct a{
+    color: #d2d3d7;
+    font-family: "Myriad Pro";
+    font-size: 1.25vw;
+    font-weight: 400;
+    letter-spacing: 0.03vw;
+    line-height: 4.3vh;
+    text-decoration: none;
+}
+.bottom__footer{
+    display: flex;
+    align-items: center;
+    height: 8.8vh;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+}
+.bottom__footer .copyright{
+    color: #cdcbcb;
+    font-family: "Myriad Pro";
+    font-size: 1.25vw;
+    font-weight: 400;
+    letter-spacing: 0.03vw;
+    text-transform: uppercase;
+    letter-spacing: 0.03vw;
+    margin-left: 8.69vw;
+}
+.bottom__footer .links{display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+margin-right: 9.1vw;}
+.bottom__footer .links .social img{
+    width: 1.8vw;
+    max-width: 100%;
+}
+@font-face {
+  font-family: 'fontello';
+  src: url('../fontello/font/fontello.eot');
+  src: url('../fontello/font/fontello.eot') format('embedded-opentype'),
+  url('../fontello/font/fontello.woff') format('woff'),
+  url('../fontello/font/fontello.woff2') format('woff2'),
+  url('../fontello/font/fontello.ttf') format('truetype'),
+  url('../fontello/font/fontello.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon-phone {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+   }
+i{color: #d2d3d7;}
+/* .icon-phone:before { content: "\0xe800"; }
+.icon-anchor:before { content: "\0xf13d"; } */
