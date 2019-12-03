@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+<div class="form">
+  <div class="form-row first" id="first_form">
+      <div class="col-md-4 mb-3">
+        <label for="validationTooltip01">First name</label>
+        <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Mark" required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationTooltip02">Last name</label>
+        <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Otto" required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+
+
+    <div class="add_form">
+        <label for="validationServer02">Press to add rows</label>
+        <button type="button" name="add_first" class="btn btn-primary but_nam_sur">Add</button>
+        <label for="validationServer02">Press to delete rows</label>
+        <button type="button" name="delete_first" class="btn btn-primary">Delete</button>
+    </div>
+  </div>
+
+  <div class="form-row second">
+      <div class="col-md-6 mb-3">
+        <label for="validationTooltip03">City</label>
+        <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
+        <div class="invalid-tooltip">
+          Please provide a valid city.
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationTooltip04">State</label>
+        <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
+        <div class="invalid-tooltip">
+          Please provide a valid state.
+        </div>
+      </div>
+
+
+    <div class="add_form">
+        <label for="validationServer02">Press to add rows</label>
+        <button type="button" name="add_secod" class="btn btn-primary but_nam_sur">Add</button>
+        <label for="validationServer02">Press to delete rows</label>
+        <button type="button" name="delete_second" class="btn btn-primary">Delete</button>
+    </div>
+
+
+  </div>
+
+ <button type="button" name="clear_all" class="btn btn-danger but_clearall">Clear all</button>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
