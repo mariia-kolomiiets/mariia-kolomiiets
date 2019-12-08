@@ -1,0 +1,11 @@
+D:\Study\Existek\Homeworks\home_5\File_manager\bin\Debug\netcoreapp3.0\File_manager.exe
+D:\Study\Existek\Homeworks\home_5\File_manager\bin\Debug\netcoreapp3.0\File_manager.deps.json
+D:\Study\Existek\Homeworks\home_5\File_manager\bin\Debug\netcoreapp3.0\File_manager.runtimeconfig.json
+D:\Study\Existek\Homeworks\home_5\File_manager\bin\Debug\netcoreapp3.0\File_manager.runtimeconfig.dev.json
+D:\Study\Existek\Homeworks\home_5\File_manager\bin\Debug\netcoreapp3.0\File_manager.dll
+D:\Study\Existek\Homeworks\home_5\File_manager\bin\Debug\netcoreapp3.0\File_manager.pdb
+D:\Study\Existek\Homeworks\home_5\File_manager\obj\Debug\netcoreapp3.0\File_manager.csprojAssemblyReference.cache
+D:\Study\Existek\Homeworks\home_5\File_manager\obj\Debug\netcoreapp3.0\File_manager.AssemblyInfoInputs.cache
+D:\Study\Existek\Homeworks\home_5\File_manager\obj\Debug\netcoreapp3.0\File_manager.AssemblyInfo.cs
+D:\Study\Existek\Homeworks\home_5\File_manager\obj\Debug\netcoreapp3.0\File_manager.dll
+D:\Study\Existek\Homeworks\home_5\File_manager\obj\Debug\netcoreapp3.0\File_manager.pdb
