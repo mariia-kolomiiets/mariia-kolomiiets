@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Регистрация</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <h1>Введите данные</h1>
+    <form action="/mood" method="post">
+        <label>What is your mood today?</label>
+        <input type="text" name="userTitle"/>
+        <label>Color</label>
+        <p><input name="coloring" type="radio" value="yellow" id="yellow"><label for="yellow">Yellow</label></p>
+        <p><input name="coloring" type="radio" value="white" id="white"><label for="white"> White</p>
+        <p><input name="coloring" type="radio" value="green" checked id="green"><label for="green"></label> Green</p>
+        <p><input name="coloring" type="radio" value="blue" id="blue"><label for="blue"></label> Blue</p>
+        <p><input name="coloring" type="radio" value="black" id="black"><label for="black"></label> Black</p>
+        <p><input name="coloring" type="radio" value="orange" checked id="orange"><label for="orange"></label> Orange</p>
+        <p><input name="coloring" type="radio" value="purple" checked id="purple"><label for="purple"></label> Purple</p>
+        <p><input name="coloring" type="radio" value="red" id="red"><label for="red"></label> Red</p>
+        <input type="submit" value="Отправить" />
+    </form>
+</body>
+</html>
