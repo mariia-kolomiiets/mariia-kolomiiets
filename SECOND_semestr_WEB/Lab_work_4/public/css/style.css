@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi+2:400,500,700&display=swap');
+
+.banner{
+    font-size: 4vw;
+    margin: #00665E;
+    margin: 0;
+    color: whitesmoke;
+    background-color: rgba(0, 62, 57, 0.6);
+}
+h1{
+    margin: 0;
+}
+h3{
+    border: 3px solid rgb(227, 237, 241);
+    margin: 0;
+    color: whitesmoke;
+    background-color: rgba(0, 62, 57, 0.35);
+    text-align: center;
+}
+body{
+    font-family: 'Baloo Thambi 2', cursive;
+
+    background: url("./img/main.jpg") no-repeat;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-color:#011e24;
+}
+
+#FormOfMess{
+    display: flex;
+    flex-direction: row;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.nameMess{
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.messStory{
+    width: 80%;
+    color: whitesmoke;
+    
+}
+.inputsMessName{
+    display: flex;
+    flex-direction: column;
+}
+.labels{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    background-color: rgba(0, 62, 57, 0.6);
+}
+
+#allMess{
+    width: 100%;
+    height: 45vh;
+    overflow: scroll;
+    background-color: rgba(0, 62, 57, 0.45);
+    font-size: 4.5vh;
+}
+#message{
+    height: 30vh;
+}
+
+
+input, textarea {
+    background-color: rgba(0, 62, 57, 0.6);
+    color: white;
+    border: 2px solid rgb(158, 196, 192);
+  }
+  #name{
+    height: 5vh;
+  }
+.btn{
+    height: 5vh;
+    background-color: rgba(0, 62, 57, 0.6);
+    border: 2px solid rgb(158, 196, 192);
+    font-weight: 600;
+}
+::placeholder {
+    color:  rgba(2, 48, 54, 0.99);
+    font-size: 1em;
+    font-family: 'Baloo Thambi 2';
+  }
+.btn:hover{
+    background-color: rgba(111, 168, 165, 0.4);
+}
