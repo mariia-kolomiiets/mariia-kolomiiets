@@ -1,0 +1,10 @@
+.div_text {
+    border: 1px solid red;
+    max-width: 500px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#text_field {
+    margin-top: 10px;
+}
