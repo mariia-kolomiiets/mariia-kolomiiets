@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATH</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Матрицы</h1>
+    <form name="math_form">
+        <div class='exp'>        
+            <label>Вычислите определитель матрицы.</label>
+            <img src="img/1.png" >
+            <div>
+                <input type="number" id="first" />
+                <p id="a_first"></p>
+            </div>
+        </div>
+        <div class='exp'>        
+            <label>Найдите точку пересечения прямых.</label>
+            <img src="img/2.png">
+            <div>
+                <input type="text" id="second" />
+                <p id="a_second"></p>
+            </div> 
+        </div>        
+        <div class='exp'>        
+            <label>Определите угловой коэффициент наклонной асимптоты функции.</label>
+            <img src="img/3.png">
+            <div>
+                <input type="text" id="third" />
+                <p id="a_third"></p>
+            </div> 
+        </div>        
+        <div class='exp'>        
+            <label>Найдите чему равен предел.</label>
+            <img src="img/4.png">
+            <div>
+                <input type="number" id="fourth" />
+                <p id="a_fourth"></p>
+            </div> 
+        </div>        
+        <div class='exp'>        
+            <label>Чему равен угловой коэффициент асимптоты гиперболы, изображеннойна рисунке?</label>
+            <img src="img/5.png">
+            <div>
+                <input type="number" id="fifth" />
+                <p id="a_fifth"></p>
+            </div> 
+        </div>
+    </form>
+    <div class="buttons">
+        <button class="post_button" id='accept_button'>Accept</button>
+        <button class="post_button" id='get_button'>Get answers</button>
+    </div>
+    <script src="code/jquery.js"></script>
+    <script src="code/buttons_script.js"></script>
+</body>
+
+</html>

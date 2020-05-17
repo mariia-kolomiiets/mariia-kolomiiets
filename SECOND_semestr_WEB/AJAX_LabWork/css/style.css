@@ -1,0 +1,61 @@
+h1{
+    font-size: 150%;
+}
+p{
+    color: darkorchid;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 110%;
+}
+input{
+    width: 50%;
+}
+.buttons{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.exp{
+    display: flex;
+    flex-direction: column;
+}
+.exp img{
+    width: 10%;
+    height: 10%;
+}
+
+
+#accept_button{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: rgb(154, 233, 192);
+    border-radius: 6px;
+    background: linear-gradient(rgb(47, 226, 137), rgb(26, 156, 106)) rgb(13, 133, 93); 
+    transition: 0.2s;
+  } 
+  #accept_button:hover { background: linear-gradient(#23daac, #4edda2) #07e299; }
+
+#get_button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+  } 
+  #get_button:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+  #get_button:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
